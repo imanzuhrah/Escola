@@ -14,7 +14,7 @@ class aluno:
     # Método para calcular media
     def aplicar_desconto (self) -> float:
 
-        media = (self.nota1 + self.nota2 + self.nota3 + self.nota4 / 4)
+        media = (self.nota1 + self.nota2 + self.nota3 + self.nota4) / 4
 
         
         # Retorna a media
